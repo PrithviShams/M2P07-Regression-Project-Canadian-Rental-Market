@@ -8,4 +8,12 @@ Several regression models were trained on a dataset of rental listings obtained 
 Visualization of the correlation of the cleaned up numerical features with the target value of rental price showed a strong correlation with sq foootage and number of baths. This aligns with our experience. Square footage itself has a strong correlation with number of beds and baths. To keep things simple, I treated all these 3 as separate features instead of devising interaction terms to account for their mutual interaction. 
 
 ### Model training<br>
+A simple MLR model and several cross-validated models were trained to compare performance. All the models showed almost similar performance, which was surprising since models like LassoCV and ElasticNetCV penalize overfitting when the feature set is as large as this. <br>
+<br>
+To test if something went wrong with the polynomial conversion of latitude and longitude, I trained the models again after excluding these features. <br>
+<br>
+The residual plot improved when we excluded the polynomial features, but the metrics got worse. In both cases, the residual plot showed the models performed well at rents upto $4000 but got worse at higher rents. <br>
+<br>
+### Performance on unseen data<br>
+I sampled 9 unseen data points from rentfaster.ca .  I did this sampling manually, so it was not possible to achieve the same level of diversity in the values as the training dataset. 
 
