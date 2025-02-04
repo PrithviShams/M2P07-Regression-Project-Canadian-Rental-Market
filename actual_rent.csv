@@ -1,0 +1,10 @@
+﻿city,province,latitude,longitude,lease_term,type,price,beds,baths,sq_feet,furnishing,smoking,cats,dogs
+Airdrie,Alberta,51.26708,-113.99377,Long Term,Apartment,1750,2,1,870,Unfurnished,No,TRUE,TRUE
+Vancouver,British Columbia,49.28778,-123.14031,Long Term,Apartment,4795,3,1,940,Unfurnished,No,TRUE,TRUE
+Winnipeg,Manitoba,49.79265,-97.194347,Short Term,Townhouse,3590,5,3,2700,Furnished,No,FALSE,TRUE
+Dieppe,New Brunswick,46.0867821,-64.7341725,Long Term,Townhouse,2300,3,2.5,1562,Unfurnished,No,FALSE,FALSE
+St. John's,Newfoundland and Labrador,47.5814514,-52.6954718,Long Term,Studio,1015,9,1,435,Unfurnished,No,TRUE,FALSE
+Halifax,Nova Scotia,44.6556207,-63.5919536,Short Term,Apartment,5400,2,2,805,Furnished,No,FALSE,FALSE
+Mississauga,Ontario,43.5711863,-79.662512,Long Term,House,3650,4,2.5,1800,Unfurnished,No,TRUE,TRUE
+Montr√©al,Quebec,45.4990847,-73.6537238,Long Term,Duplex,2045,2,1,800,Unfurnished,YES,FALSE,FALSE
+Lloydminster,Saskatchewan,53.26739027,-109.991861,Long Term,Apartment,1558,2,1,859,Unfurnished,NO,TRUE,TRUE
